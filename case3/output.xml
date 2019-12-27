@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20191001 10:58:28.714" rpa="false">
+<suite id="s1" name="Case3" source="C:\Users\IBM_ADMIN\Desktop\thai\CorpusAutomated\case3\case3.robot">
+<test id="s1-t1" name="Verify document button">
+<kw name="Open Website" library="Keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${CorpusWeb}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20191001 10:58:29.352" level="INFO">Opening browser 'chrome' to base url 'http://localhost:3000/'.</msg>
+<status status="PASS" starttime="20191001 10:58:29.352" endtime="20191001 10:58:34.104"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191001 10:58:34.104" endtime="20191001 10:58:34.229"></status>
+</kw>
+<status status="PASS" starttime="20191001 10:58:29.351" endtime="20191001 10:58:34.229"></status>
+</kw>
+<kw name="AND Click Login" library="Keyword">
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>//*[@id="root"]/div/div/div/a[2]</arg>
+</arguments>
+<status status="PASS" starttime="20191001 10:58:34.230" endtime="20191001 10:58:34.279"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="root"]/div/div/div/a[2]</arg>
+</arguments>
+<msg timestamp="20191001 10:58:34.280" level="INFO">Clicking element '//*[@id="root"]/div/div/div/a[2]'.</msg>
+<status status="PASS" starttime="20191001 10:58:34.279" endtime="20191001 10:58:34.664"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+<arg>s</arg>
+</arguments>
+<msg timestamp="20191001 10:58:37.665" level="INFO">Slept 3 seconds</msg>
+<msg timestamp="20191001 10:58:37.665" level="INFO">s</msg>
+<status status="PASS" starttime="20191001 10:58:34.664" endtime="20191001 10:58:37.665"></status>
+</kw>
+<status status="PASS" starttime="20191001 10:58:34.230" endtime="20191001 10:58:37.665"></status>
+</kw>
+<kw name="AND Click Cat project" library="Keyword">
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>//*[@id="root"]/div/div[3]/div/div[3]/div/div[1]/div</arg>
+</arguments>
+<status status="PASS" starttime="20191001 10:58:37.667" endtime="20191001 10:58:37.714"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="root"]/div/div[3]/div/div[3]/div/div[1]/div</arg>
+</arguments>
+<msg timestamp="20191001 10:58:37.715" level="INFO">Clicking element '//*[@id="root"]/div/div[3]/div/div[3]/div/div[1]/div'.</msg>
+<status status="PASS" starttime="20191001 10:58:37.715" endtime="20191001 10:58:37.827"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+<arg>s</arg>
+</arguments>
+<msg timestamp="20191001 10:58:40.828" level="INFO">Slept 3 seconds</msg>
+<msg timestamp="20191001 10:58:40.828" level="INFO">s</msg>
+<status status="PASS" starttime="20191001 10:58:37.828" endtime="20191001 10:58:40.828"></status>
+</kw>
+<status status="PASS" starttime="20191001 10:58:37.666" endtime="20191001 10:58:40.828"></status>
+</kw>
+<kw name="AND Click Document">
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>//*[@id="root"]/div/div[2]/div[1]/div/div/div/a[2]</arg>
+</arguments>
+<status status="PASS" starttime="20191001 10:58:40.829" endtime="20191001 10:58:40.878"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="root"]/div/div[2]/div[1]/div/div/div/a[2]</arg>
+</arguments>
+<msg timestamp="20191001 10:58:40.878" level="INFO">Clicking element '//*[@id="root"]/div/div[2]/div[1]/div/div/div/a[2]'.</msg>
+<status status="PASS" starttime="20191001 10:58:40.878" endtime="20191001 10:58:40.985"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+<arg>s</arg>
+</arguments>
+<msg timestamp="20191001 10:58:43.986" level="INFO">Slept 3 seconds</msg>
+<msg timestamp="20191001 10:58:43.986" level="INFO">s</msg>
+<status status="PASS" starttime="20191001 10:58:40.985" endtime="20191001 10:58:43.986"></status>
+</kw>
+<status status="PASS" starttime="20191001 10:58:40.829" endtime="20191001 10:58:43.986"></status>
+</kw>
+<kw name="AND Close Website" library="Keyword">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20191001 10:58:43.987" endtime="20191001 10:58:45.268"></status>
+</kw>
+<status status="PASS" starttime="20191001 10:58:43.987" endtime="20191001 10:58:45.268"></status>
+</kw>
+<status status="PASS" starttime="20191001 10:58:29.350" endtime="20191001 10:58:45.269" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20191001 10:58:28.719" endtime="20191001 10:58:45.270"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Case3">Case3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
